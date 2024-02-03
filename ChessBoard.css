@@ -1,0 +1,19 @@
+body{
+    background-color: brown;
+}
+table{
+    margin: auto;
+    margin: 2px;
+    border-radius: 25px;
+    margin: 20px auto;  
+    text-shadow: 2px 2px 2px gray;
+}
+td{
+    padding: 50px;
+    background-color:white;
+}
+tr:nth-child(odd) td:nth-child(odd), 
+tr:nth-child(even) td:nth-child(even)
+{
+    background-color: black;
+}
